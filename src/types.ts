@@ -18,6 +18,8 @@ export interface GuildConfig {
   channelId: undefined | string;
   enabled: boolean;
   excluded: number[];
+  consequence: string;
+  roleId: undefined | string;
 }
 
 export type GuildListConfig = Record<string, GuildConfig>;

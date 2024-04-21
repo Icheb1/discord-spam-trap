@@ -47,5 +47,7 @@ export function newGuildConfig(): GuildConfig {
     channelId: undefined,
     enabled: true,
     excluded: [],
+    consequence: "1",
+    roleId: undefined,
   };
 }
